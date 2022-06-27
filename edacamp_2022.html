@@ -1,0 +1,473 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>EDA夏令營 2021</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/edacamp.js?1656302722"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link href="css/geomanistlight.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="css/edacamp.css?1656302722" rel="stylesheet" type="text/css">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79163777-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+    <div class="loader">
+        <table width="100%" height="100%">
+            <tbody>
+                <tr>
+                    <td align="center" valign="middle"><i class="fa fa-spinner fa-pulse fa-2x"></i><br><br>資料上傳處理中...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="wrap">
+        <div id="menu">
+            <div class="container">
+                <div class="menu-item-left">EDA 夏令營 2021</div>
+                <!-- <div class="menu-item-right mitem" mdata="list">錄取名單</div> -->
+                <div class="menu-item-right mitem" mdata="sign">報名</div>
+                <!--
+    <div class="menu-item-right mitem" mdata="act">競賽活動</div>
+    -->
+                <div class="menu-item-right mitem" mdata="sche">活動時間表</div>
+                <div class="menu-item-right mitem" mdata="info">營隊資訊</div>
+                 <div class="menu-item-right mitem" mdata="speech">主題演講</div>
+                <div class="menu-item-right mitem" mdata="about">關於EDA夏令營</div>
+                <div class="menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                <div class="clearboth"></div>
+            </div>
+            <div class="container" id="submenu">
+                <div class="submenu-item" mdata="about">關於EDA夏令營</div>
+                <div class="submenu-item" mdata="speech">主題演講</div>
+
+                <div class="submenu-item" mdata="info">營隊資訊</div>
+                <div class="submenu-item" mdata="sche">活動時間表</div>
+                <!--
+    <div class="submenu-item" mdata="act">競賽活動</div>
+    -->
+                <div class="submenu-item" mdata="sign">報名</div>
+                <!-- <div class="submenu-item" mdata="list">錄取名單</div> -->
+            </div>
+        </div>
+        <div id="cover">
+            <div class="container text-center" id="cover-cont">
+                <div class="div-table">
+                    <div class="div-cell">
+                        <div class="logof">
+                            <div class="gieelogo"><img class="blurpre-start" src="images/giee_logo.png" width="300"></div>
+                            <div class="gieetxt">國立臺灣大學｜電子工程學研究所</div>
+                        </div>
+                        <div class="logof"><img class="blurpre-start" src="images/ceda.png" width="300" /></div>
+                        <div class="clearboth"></div>
+                        <div class="cover-title">EDA 夏令營</div>
+                        <div class="cover-year">2021</div>
+                        <div class="cover-btn">
+                            <button type="button" class="btn btn-primary btn-lg mitem" mdata="sign">我要報名</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cover-continue">
+                    <div class="slogan" style="font-size:16px; margin-bottom:20px;">快來報名EDA夏令營，一同感受EDA領域的魅力吧！</div>
+                    <div class="mitem" mdata="about"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="inside">
+                    <div class="normal-title center100">關於 EDA 夏令營</div>
+                    <p>電資領域的學生在邁入研究所時，都會遇到要選擇組別和研究領域，然而，在對各組別的理解均不甚透徹時，往往很難做出最適合自己的選擇。「EDA」之於許多學生而言，也許是十分陌生模糊的概念，電子設計自動化 (Electronic Design Automation, EDA) 是什麼？踏入 EDA 領域需要具備什麼技能？EDA 領域的未來趨勢和產業結構是什麼樣子的？</p>
+                    <p>最重要的是，為什麼我應該選擇 EDA？EDA 適合我、對我的未來有幫助嗎？</p>
+                    <p>因此，在這接近研究所推甄的時節，為了幫助更多對電資領域有興趣的學生，能夠更加了解 EDA 領域並找到自己的方向，國立臺灣大學電子工程學研究所 EDA 組及 IEEE Council on Electronic Design Automation (CEDA) 共同舉辦「EDA 夏令營」，期待透過兩天一夜的課程、講座、競賽及 EDA 企業參訪等紮實安排，提供學員們一個認識學習 EDA 領域的機會。</p>
+                    
+                    <p>快來報名 EDA 夏令營，一同感受 EDA 領域的魅力吧！</p>
+                    <div style="width:100%; text-align:center; padding:30px 0px 0px 0px;" class="blurpre"><img src="images/eda.png" width="180" alt="" /></div>
+                    <div class="normal-title center100">臺灣EDA現況</div>
+                    <p>近年在各界策略性的推動下，國內積體電路設計產業蓬勃發展。由於積體電路製程技術和設計複雜度的日益提升，使得藉由電腦輔助 (CAD) 的方式從事積體電路設計成為必然。這也使得電子設計自動化 (Electronic Design Automation, EDA) 工具於積體電路設計工業所扮演的角色日益重要。台灣具備得天獨厚的條件，擁有世界第一的半導體製造廠商，一流的電路設計公司，國際EDA軟體領導廠商在台灣也都設有重要研發部門。</p>
+                    <p>台灣EDA學術研究獲得業界多家企業大力支持贊助，師生表現十分亮麗，研發成果均發表於EDA最頂尖國際會議及贏得國內外EDA研發競賽，多位台灣EDA教師與學者榮獲國內外學術獎、任職國際頂尖 EDA 會議議程委員及主席，多項研究成果獲國內外許多最佳論文獎及國際電子工業周刊(EE Times)報導。近年來台灣EDA研究能量豐沛並持續成長，國際能見度及影響力排名已躍居為全球第二，已受到國際之重視與肯定。</p>
+                    
+                    <div class="normal-title center100">IEEE Council on Electronic Design Automation (CEDA)</div>
+                    <p>IEEE CEDA與ACM SigDA並稱是國際兩大統籌規劃EDA研究發展的組織。IEEE CEDA承辦並贊助EDA國際頂尖會議，EDA研發競賽，以及區域性推廣與教育活動。於2010年成立台北分會，發展至今，目前台北分會是CEDA最活耀的分會之一。</p>
+
+                    <div class="normal-title center100" id="speech">2021 eda camp 主題演講 ---- 張耀文院長</div>
+                    <div class="video-i" style="margin-top: 30px;">
+        
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FALvb5NbFws?start=7" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="transbw"></div>
+        <div id="info">
+            <div class="container">
+                <div class="inside">
+                    <div class="normal-title center100">營隊資訊</div>
+                    <div class="row">
+                        <div class="tableblock">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td align="right" width="100">活動日期：</td>
+                                        <td>2021 年 08月 12日（四）~ 08月 13日 （五）</td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right">活動地點：</td>
+                                        <td>線上</td>
+                                    </tr>
+                                    <!-- <tr>
+                                        <td align="right">住宿地點：</td>
+                                        <td>捷絲旅臺大尊賢館</td>
+                                    </tr> -->
+                                    <tr>
+                                        <td align="right">報名費用：</td>
+                                        <td>保證金新台幣 1,000 元整<br>
+                                            全程參與營隊活動者全額退還<!-- ，若有申請住宿則將扣除住宿費用後退還剩餘金額 -->。 </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                       <!--  <div class="center100">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.43555791969!2d121.54010751572434!3d25.019288645033416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa267158ff23%3A0x280b7e1a98cc05ca!2z6Ie654Gj5aSn5a245Y2a55CG6aSo!5e0!3m2!1szh-TW!2stw!4v1594191050247!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div> -->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="normal-title center100">注意事項</div>
+                            <ul>
+                               <!--  <li>由於新型冠狀病毒疫情影響，本次營隊僅提供居住北北基以外的同學住宿學校附近飯店，若居住於北北基的同學有特殊原因需要申請住宿，請用文字於報名表單中簡短敘述概況。住宿將由主辦單位統一安排，以四人一間的家庭房為主，每人費用約$1500 ，屆時以飯店報價為準，主辦單位將補助住宿同學$700元，剩餘金額將從保證金扣除。</li> -->
+                                <li>若有中途離營之必要者，需事先簽妥 <a href="https://drive.google.com/file/d/1dRyC_O4hhoxV-fbWPNIBH1aaEc17fyy_/view" target="_blank">離營切結書 <i class="fa fa-download" aria-hidden="true"></i></a>，方可離營。學員離營後之行為及安全，本營隊恕無法負責。 </li>
+                                <li>本營隊僅收取保證金，閉幕後將全額退還並寄發結業證書予全程參與之學員。 </li>
+                                <li>任何相關問題可寄信至 <a href="mailto:edacamp2021@gmail.com">edacamp2021@gmail.com</a>，我們將盡快與您連絡。</li>
+                                <li>主辦單位保留更改調整或取消本活動及各項細節之權利。</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="normal-title center100">EDA 夏令營行為準則<br>
+                                Code of Conduct</div>
+                            <p>EDA 夏令營希望能讓更多電資領域優秀學子，更加了解認識 EDA 領域，並對於自身未來進入研究所的選組有所幫助，同時，我們亦致力於提供友善、良好的環境，使 EDA 夏令營不只成為令學員有所收穫的營隊，也能帶給學員們美好的暑期回憶。因此，若您有機會進入 EDA 夏令營中學習，希望您能配合遵守以下的行為準則： </p>
+                            <ul>
+                                <li> 尊重每一位參與者，將對方的感受放在心上，並多關心周遭所有同伴，適度詢問對方是否需要協助。遭遇危險或任何狀況時，可適時尋求工作人員的支援與協助。 </li>
+                                <li>避免使用帶有侮辱、歧視、或具潛在騷擾意涵的言語及手勢。不得進行針對性別、性向、種族、外貌、宗教、年齡、身體狀況或個人身分之挑釁或冒犯，並不得展示或放映含有侮辱、歧視、暴力等之言論與影像。 </li>
+                                <li>不得無故干擾課程、演講、參訪或任何活動之正常進行，亦不得破壞場地物品、造成場地髒污毀損或干擾、攻擊活動場地之網路。 </li>
+                                <li>嚴禁任何違反法律之行為。 </li>
+                            </ul>
+                            <p>為確保每位參與者的安全與權益，我們將恪守以上規則。對於違反行為準則者，我們將採取必要且合理的手段予以介入，包含但不限於將參與者請離現場、不頒予結業證書及扣留保證金，或在必要時移送警察機關法辦。若您或他人遇到了以上情況、或是有任何其他顧慮，都請立即尋求 EDA 夏令營工作人員的協助，讓我們共同打造舒適且友善的學習環境。 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sche">
+            <div class="container text-center">
+                <div class="normal-title center100">活動時間表</div>
+                <div class="tableblock2">
+                    <table class="table table-sche" id="table-sche">
+                        <tbody>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>Day1 8/12 (四)</td>
+                                <td>&nbsp;</td>
+                                <td>Day2 8/13 (五)</td>
+                            </tr>
+                            <tr>
+                                <td>09:30</td>
+                                <td>報到<br>線上：Zoom討論室</td>
+                                <td>08:40</td>
+                                <td>報到</td>
+                            </tr>
+                            <tr>
+                                <td>09:30-10:00</td>
+                                <td>小隊時間<br>主持：各隊隊輔</td>
+                                <td>09:00</td>
+                                <td style="background-color: forestgreen;" rowspan="3">競賽討論</td>
+                            </tr>
+                            <tr>
+                                <td>10:00</td>
+                                <td class="sche-speech" rowspan="2">主題演講<br>講者：張耀文院長</td>
+                                <td>10:00</td>
+                            </tr>
+                            <tr>
+                                <td>11:00</td>
+                                <td>11:00</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">12:00</td>
+                                <td rowspan="2">午餐時間 + HR分享</td>
+                                <td>12:30</td>
+                                <td>午餐</td>
+                            </tr>
+                            <tr>
+                                <td>13:20-13:30</td>
+                                <td>休息時間</td>
+                            </tr>
+                            <tr>
+                                <td>13:00</td>
+                                <td class="sche-speech" rowspan="2">Design Flow介紹<br>講者：EDA組教授</td>
+                                <td>13:30</td>
+                                <td style="background-color: forestgreen;" rowspan="3">各組報告<br>主持人：江蕙如教授</td>
+                            </tr>
+                            <tr>
+                                <td>14:00</td>
+                                <td rowspan="2">14:30</td>
+                            </tr>
+                            <tr>
+                                <td>14:50-15:00</td>
+                                <td>
+                                    休息時間
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td rowspan="2">15:00</td>
+                                 <td class="sche-speech" rowspan="3">
+                                    經驗分享與座談會<br>主持人：李建模教授
+                                </td>
+                                <td>15:30</td>
+                                <td>分批大合照</td>
+                            </tr>
+                            <tr>
+                                <td>15:45-16:00</td>
+                                <td>休息時間</td>
+                            </tr>
+                             <tr>
+                                <td>16:00</td>
+                                <td>16:00</td>
+                                <td class="sche-speech">頒獎與評審講評<br>主持人：江蕙如教授</td>
+                            </tr>
+                            <tr>
+                                <td>17:00-17:10</td>
+                                <td>休息時間</td>
+                                <td>16:30</td>
+                                <td>活動結束</td>
+                            </tr>
+                            <tr>
+                                <td>17:10</td>
+                                <td style="background-color: forestgreen;">競賽題目說明<br>主持人：江蕙如教授</td>
+                            </tr>
+                            <tr>
+                                <td>18:00</td>
+                                <td>晚餐</td>
+                            </tr>
+                            <tr>
+                                <td>19:00</td>
+                                <td style="background-color: forestgreen;">分組競賽討論</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div style="color: coral">註：主辦單位保留微調活動時間之權利。</div>
+                </div>
+            </div>
+        </div>
+        <div class="transbw2"></div>
+        <div id="sign">
+            <div class="container">
+                <div class="inside">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="normal-title center100">報名</div>
+                            <div class="tableblock">
+                                <table class="table">
+                                    <tbody>
+                                        <tr>
+                                            <td align="right" width="100">招收對象：</td>
+                                            <td>全國大專院校學生</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right">招收人數：</td>
+                                            <td>50人</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right">報名費用：</td>
+                                            <td>保證金新台幣 1,000 元整，全程參與者全額退還<!-- ，若有申請住宿則將扣除住宿費用後退還剩餘金額 -->。</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="right">報名日期：</td>
+                                            <td>開放報名：即刻開始<br>
+                                                報名截止：<!-- 2020/07/20 -->
+                                                <!-- <span style="text-decoration: line-through;">2020/07/20</span> 延至 2020/07/24<br> -->
+                                                 <span>2021/06/30</span> 
+                                                <!-- 公告錄取學員：2020/07/26 --></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class=" center100 blurpre"><a href="https://drive.google.com/file/d/1fMvo7G0xxrfG_hVh3gE4LCLf_D3XqcqQ/view?usp=sharing" target="_blank">報名前請先詳閱報名簡章 <i class="fa fa-download" aria-hidden="true"></i></a></div>
+                            <div class="center100" style="padding-top:30px;">
+                                                                <button type="button" class="btn btn-danger">立刻報名（已經截止）</button>
+                                                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="normal-title center100">注意事項</div>
+                            <ul>
+                                <li>報名時填寫之個人資料僅供營隊相關使用，本營隊不會做為任何商業用途之使用。 </li>
+                                <li>繳費後方為完成報名程序，正取學員需於公告名單後七日內完成保證金繳費，逾期者之名額將釋放給候補學員。 </li>
+                                <li>本營隊僅收取保證金，閉幕後將全額退還並寄發結業證書予全程參與之學員。</li>
+                                <li>後續通知及行前注意事項均將透過學員填寫之電子信箱聯繫，請務必保持收信以免影響個人權益。 </li>
+                                <li>任何相關問題請寄信至 <a href="mailto:edacamp2021@gmail.com">edacamp2021@gmail.com</a>，我們將盡快與您連絡。 </li>
+                                <li>主辦單位保留更改調整或取消本活動及各項細節之權利。</li>
+                                <li>因疫情的關係，主辦單位保留將活動改為線上舉辦的權利，在宣布改為線上後的7天內可申請全額退費。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="list">
+            <div class="container">
+                <div class="inside2">
+                    <div class="normal-title center100">錄取名單</div>
+                    <div style="color:coral; margin-bottom: 30px; text-align:center">
+                        感謝各位的報名!以下是這次 "2021 EDA summer camp" 的錄備取名單，有被列在下面的同學會在 7/10 之前收到官方的 e-mail，請大家注意郵箱囉!
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            
+                           
+                            <div class="center100">正取</div>
+                           
+<div class="list-item">黃○珊</div>
+<div class="list-item">林○霆</div>
+<div class="list-item">陳○沂</div>
+<div class="list-item">蔡○儀</div>
+<div class="list-item">張○豪</div>
+<div class="list-item">莊○慈</div>
+<div class="list-item">陳○宇</div>
+<div class="list-item">葛○&nbsp;&nbsp;&nbsp;&nbsp</div>
+<div class="list-item">林○瑋</div>
+<div class="list-item">林○一</div>
+<div class="list-item">陳○翰</div>
+<div class="list-item">呂○元</div>
+<div class="list-item">陳○婕</div>
+<div class="list-item">劉○亨</div>
+<div class="list-item">黃○瑜</div>
+<div class="list-item">張○翔</div>
+<div class="list-item">高○芝</div>
+<div class="list-item">陳○縉</div>
+<div class="list-item">謝○&nbsp;&nbsp;&nbsp;&nbsp</div>
+<div class="list-item">曾○珊</div>
+<div class="list-item">詹○嘉</div>
+<div class="list-item">張○閔</div>
+<div class="list-item">吳○磊</div>
+<div class="list-item">吳○全</div>
+<div class="list-item">莊○翔</div>
+<div class="list-item">莊○宸</div>
+<div class="list-item">鄭○永</div>
+<div class="list-item">李○臻</div>
+<div class="list-item">林○堯</div>
+<div class="list-item">黃○瑋</div>
+<div class="list-item">陳○智</div>
+<div class="list-item">顏○顥</div>
+<div class="list-item">林○瑀</div>
+<div class="list-item">蔡○勛</div>
+<div class="list-item">邱○祺</div>
+<div class="list-item">溫○萱</div>
+<div class="list-item">羅○辰</div>
+<div class="list-item">陳○瑋</div>
+<div class="list-item">柯○佑</div>
+<div class="list-item">徐○齊</div>
+<div class="list-item">鄭○&nbsp;&nbsp;&nbsp;&nbsp</div>
+<div class="list-item">范○瑋</div>
+<div class="list-item">沈○賢</div>
+<div class="list-item">黃○嘉</div>
+<div class="list-item">莊○鐸</div>
+<div class="list-item">王○邦</div>
+<div class="list-item">吳○丞</div>
+<div class="list-item">邱○竣</div>
+<div class="list-item">顏○任</div>
+<div class="list-item">林○翔</div>
+<div class="list-item">陳○均</div>
+<div class="list-item">王○廷</div>
+<div class="list-item">何○翰</div>
+<div class="list-item">龔○丞</div>
+<div class="list-item">沈○民</div>
+<div class="list-item">莊○翰</div>
+<div class="list-item">許○凱</div>
+<div class="list-item">王○翔</div>
+<div class="list-item">高○堯</div>
+<div class="list-item">許○麗</div>
+<div class="list-item">王○翔</div>
+<div class="list-item">顏○科</div>
+<div class="list-item">羅○翔</div>
+<div class="list-item">蔡○辰</div>
+<div class="list-item">李○徵</div>
+<div class="list-item">陳○宏</div>
+<div class="list-item">吳○睿</div>
+<div class="list-item">邱○翰</div>
+<div class="list-item">王○翔</div>
+<div class="list-item">蔡○軒</div>
+<div class="list-item">張○鑫</div>
+<div class="list-item">姚○齊</div>
+<div class="list-item">江○瑋</div>
+<div class="list-item">范○欣</div>
+<div class="list-item">曹○恆</div>
+                            <div class="clearboth"></div>
+                            
+                            <div class="center100" style="color:rgba(240,195,0,1.00); margin-top: 20px">以下為備取名單</div>
+                           
+<div class="list-item">鄭○邑</div>
+<div class="list-item">陳○篷</div>
+<div class="list-item">高○寧</div>
+<div class="list-item">邱○雅</div>
+<div class="list-item">謝○達</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sponsor">
+            <div class="container">
+                <div class="inside">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="normal-title center100" style="margin:50px 0;">贊助廠商</div>
+                            <div style="font-size: 12px; color:#777; margin:-55px 0 50px;">順序依企業英文名稱首字母排列</div>
+                             <a href="https://www.cadence.com/content/cadence-www/global/zh_TW/home.html" target="_blank"><img src="images/cadence.png" class="sponsorlogo" /></a>
+                            <br><br><br>
+                            <a href="https://www.mediatek.tw" target="_blank"><img src="images/mediatek_logo.png" class="sponsorlogo" /></a>
+                            <br><br><br>
+                            <a href="http://www.synopsys.com" target="_blank"><img src="images/synopsys.png" class="sponsorlogo" /></a>
+                            <br><br><br>
+                            <a href="http://www.tsmc.com/" target="_blank"><img src="images/tsmc.png" class="sponsorlogo" /></a>
+                            
+                            <!-- <a href="http://www.globalunichip.com/" target="_blank"><img src="images/guc.jpg" class="sponsorlogo" /></a>
+                            <a href="http://www.tsmc.com/" target="_blank"><img src="images/tsmc.png" class="sponsorlogo" /></a>
+                            <br><br> -->
+                            <!-- <a href="http://www.avery-design.com" target="_blank"><img src="images/avery.png" class="sponsorlogo" /></a> -->
+                            <!-- <a href="https://www.mentor.com/company/" target="_blank"><img src="images/mentor.png" class="sponsorlogo" /></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="transbw3" style="margin-top:50px;"></div>
+        <div id="footer">
+            <div class="container text-center">
+                <div>2021 EDA 夏令營</div>
+                <div>主辦單位：國立臺灣大學電子工程學研究所EDA組<br>IEEE Council on Electronic Design Automation (CEDA) </div>
+                <div>http://cc.ee.ntu.edu.tw/~eda</div>
+                <div>edacamp2021@gmail.com</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
