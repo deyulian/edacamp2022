@@ -28,6 +28,18 @@ a:hover{
 	max-height: 100px;
 	margin: 10px;
 }
+.sponsor1{
+	margin-top: 200px;
+	padding-bottom: 450px;
+	/*background-image:url(https://giee.ntu.edu.tw/images/bgp-full.jpg);*/
+	background-color: #100e0e;
+	background-size:cover;
+	background-position:center;
+    background-attachment: fixed;
+	width:100%;
+	position:relative;
+	color:rgb(26, 24, 24);
+}
 .control-label{
 	font-weight: bold;	
 }
